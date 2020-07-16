@@ -10,17 +10,17 @@ To use the USB-UART bridge feature of this demo, the Arty S7-50T must be connect
 Requirements
 --------------
 * **Arty S7-50T**:To purchase a Arty S7-50T, see the [Digilent Store](https://store.digilentinc.com/arty-s7-spartan-7-fpga-board-for-hobbyists-and-makers/)
-* **Vivado 2018.2 Installation**:To set up Vivado, see the [Installing Vivado and Digilent Board Files Tutorial](https://reference.digilentinc.com/vivado/installing-vivado/start).
+* **Vivado 2020.1 Installation**:To set up Vivado, see the [Installing Vivado and Digilent Board Files Tutorial](https://reference.digilentinc.com/vivado/installing-vivado/start).
 * **Serial Terminal Emulator Application**: For more information see the [Installing and Using a Terminal Emulator Tutorial](https://reference.digilentinc.com/learn/programmable-logic/tutorials/tera-term).
 * **MicroUSB Cable**
  
 Demo Setup
 --------------
 1. Download and extract the most recent release ZIP archive from this repository's [Releases Page](https://github.com/Digilent/Arty-S7-50-GPIO/releases).
-2. Open the project in Vivado 2018.2 by double clicking on the included XPR file found at "\<archive extracted location\>/vivado_proj/Arty-S7-50-GPIO.xpr".
+2. Open the project in Vivado 2020.1 by double clicking on the included ZIP file found at "\<archive extracted location\>/vivado_proj/Arty-S7-50-GPIO-2020-1.xpr.zip".
 3. In the Flow Navigator panel on the left side of the Vivado window, click **Open Hardware Manager**.
 4. Plug the Arty S7-50T into the computer using a MicroUSB cable.
-5. Open a serial terminal emulator (such as TeraTerm) and connect it to the Arty S7-50T's serial port, using a baud rate of 9600.
+5. Open a serial terminal emulator (such as TeraTerm) and connect it to the Arty S7-50T's serial port, using a baud rate of 19200.
 6. In the green bar at the top of the Vivado window, click **Open target**. Select **Auto connect** from the drop down menu.
 7. In the green bar at the top of the Vivado window, click **Program device**.
 8. In the Program Device Wizard, enter "\<archive extracted location\>vivado_proj/Arty-S7-50-GPIO.runs/impl_1/GPIO_Demo.bit" into the "Bitstream file" field. Then click **Program**.
